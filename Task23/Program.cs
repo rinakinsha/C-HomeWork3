@@ -2,7 +2,7 @@
 {
     if (N < 0)
     {
-        for (int i = -1; i >= N; i--)
+        for (int i = 1; i >= N; i--)
         {
             int total = i * i * i;
             Console.Write(total + " ");
@@ -10,10 +10,10 @@
     }
     else
     {
-        for (int i = 1; i <= N; i++)
+        for (int j = 1; j <= N; j++)
         {
-            int total = i * i * i;
-            Console.Write(total + " ");
+            int totalj = j * j * j;
+            Console.Write(totalj + " ");
         }
     }
 }
